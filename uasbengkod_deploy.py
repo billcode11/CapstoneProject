@@ -84,7 +84,7 @@ restecg = st.sidebar.selectbox(
 thalach = st.sidebar.number_input(
     "Detak Jantung Maksimum", min_value=0, max_value=220, value=150)
 exang = st.sidebar.selectbox(
-    "Angina yang Terinduksi oleh Latihan", ['Ya', 'Tidak'])
+    "Nyeri Dada saat Berolahraga", ['Ya', 'Tidak'])
 oldpeak = st.sidebar.number_input(
     "Depresi ST Dihasilkan oleh Latihan", min_value=0.0, max_value=10.0, value=1.0)
 
